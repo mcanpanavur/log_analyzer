@@ -1,0 +1,6 @@
+Sep 07 12:00:01 server sshd[1001]: Failed password for root from 192.168.1.50 port 51231 ssh2
+Sep 07 12:01:11 server sshd[1002]: Failed password for root from 192.168.1.50 port 51232 ssh2
+Sep 07 12:02:25 server sshd[1003]: Failed password for root from 192.168.1.50 port 51233 ssh2
+Sep 07 12:03:40 server sshd[1004]: Accepted password for user from 192.168.1.20 port 52000 ssh2
+Sep 07 12:10:15 server sshd[1005]: Invalid user admin from 10.0.0.25 port 43021
+Sep 07 12:11:03 server sshd[1006]: Failed password for invalid user test from 10.0.0.25 port 43022 ssh2
