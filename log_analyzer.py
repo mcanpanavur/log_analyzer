@@ -20,7 +20,7 @@ def zamanı_al(satir):
     yil = datetime.now().year
     try:
         return datetime.strptime(f"{yil}-{ay_map[ay]:02d}-{int(gun):02d} {saat}", "%Y-%m-%d %H:%M:%S")
-    except: return None
+    except (KeyError, ValueError): return None
 
 #basit SSH/kimlik doğrulama hatası örnekleri
 kaliplar = [
