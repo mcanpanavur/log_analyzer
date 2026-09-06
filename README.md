@@ -49,8 +49,8 @@ You can test the analyzer using the included sample log file:
 
 ```bash
 python3 log_analyzer.py examples/sample_auth.log 5 3
+```
 ### Example
-
 ```bash
 python3 log_analyzer.py /var/log/auth.log 5 3
 ```
