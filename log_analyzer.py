@@ -3,7 +3,7 @@ from collections import defaultdict, deque
 from datetime import datetime, timedelta
 
 if len(sys.argv) < 4:
-    print("Kullanim Sekli ş: python3 kisa_log_uyari.py <log_yolu> <dakika_penceresi> <esik>")
+    print("Kullanım: python3 log_analyzer.py <log_dosyasi> <dakika_penceresi> <esik>")
     sys.exit(1)
 
 log_yolu = sys.argv[1]
