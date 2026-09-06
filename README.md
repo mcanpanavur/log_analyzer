@@ -43,7 +43,12 @@ Run the analyzer from the terminal:
 ```bash
 python3 log_analyzer.py <log_file> <time_window_minutes> <threshold>
 ```
+### Quick Test
 
+You can test the analyzer using the included sample log file:
+
+```bash
+python3 log_analyzer.py examples/sample_auth.log 5 3
 ### Example
 
 ```bash
@@ -78,10 +83,12 @@ Uyarı yok: eşik aşılmadı.
 
 ```text
 log_analyzer/
-├── log_analyzer.py
-├── README.md
+├── examples/
+│   └── sample_auth.log
+├── .gitignore
 ├── LICENSE
-└── .gitignore
+├── README.md
+└── log_analyzer.py
 ```
 
 ## Use Cases
